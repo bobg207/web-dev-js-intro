@@ -5,18 +5,22 @@
 }
 
 body {
+    background-color: rgb(184, 209, 231);
+}
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(184, 209, 231);
 }
 
-h1,
-main {
+.choice-container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
@@ -24,12 +28,7 @@ h1 {
     padding: .75em 0;
 }
 
-main {
-    display: flex;
-    justify-content: space-between;
-}
-
-main div {
+.choice-container div {
     width: 45%;
     border: 3px solid black;
     border-radius: 10px;

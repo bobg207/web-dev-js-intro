@@ -8,24 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Rock, Paper, Scissors</h1>
-
     <main>
-        <div class="user-frame">
-            <h2>User Choice</h2>
-            <img src="/images/rps4.png" class='user-img' alt="rps">
+        <h1>Rock, Paper, Scissors</h1>
+        <div class="choice-container">
+            <div class="user-frame">
+                <h2>User Choice</h2>
+                <img src="/images/rps4.png" class='user-img' alt="rps">
+            </div>
+            <div class="computer-frame">
+                <h2>Computer Choice</h2>
+                <img src="/images/rps4.png" class='comp-img' alt="rps">
+            </div>
         </div>
-        <div class="computer-frame">
-            <h2>Computer Choice</h2>
-            <img src="/images/rps4.png" class='comp-img' alt="rps">
+        
+        <h2>Result: <span class="result">Start Game</span></h2>
+
+        <div class="user-choices">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
         </div>
     </main>
-    <h2>Result: <span class="result">Start Game</span></h2>
-    <div class="user-choices">
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
-    </div>
+    
     
     <script src="script.js"></script>
 </body>
